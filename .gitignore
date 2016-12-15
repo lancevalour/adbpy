@@ -1,0 +1,4 @@
+*.mp4
+/libs
+/adbpy/test.py
+/sample/test.py
