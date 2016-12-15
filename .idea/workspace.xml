@@ -1,36 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dae454be-de15-4fae-8a07-85e9e3c0bf6d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/platform-tools/AdbWinApi.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/platform-tools/AdbWinUsbApi.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/platform-tools/adb.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/platform-tools/api/annotations.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/platform-tools/dmtracedump.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/platform-tools/etc1tool.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/platform-tools/fastboot.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/platform-tools/hprof-conv.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/platform-tools/sqlite3.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/platform-tools/NOTICE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/platform-tools/api/api-versions.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/platform-tools/lib64/libc++.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/platform-tools/package.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/platform-tools/source.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/platform-tools/systrace/AUTHORS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/platform-tools/systrace/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/platform-tools/systrace/NOTICE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/platform-tools/systrace/UPSTREAM_REVISION" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/platform-tools/systrace/agents/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/platform-tools/systrace/agents/atrace_agent.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/platform-tools/systrace/prefix.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/platform-tools/systrace/suffix.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/platform-tools/systrace/systrace-legacy.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/platform-tools/systrace/systrace.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/platform-tools/systrace/systrace_agent.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/platform-tools/systrace/systrace_trace_viewer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/platform-tools/systrace/util.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="dae454be-de15-4fae-8a07-85e9e3c0bf6d" name="Default" comment="Add adb library.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="adb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,12 +36,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
               <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="81">
+                <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -108,8 +94,8 @@
         <option value="$PROJECT_DIR$/adbpy/__init__.py" />
         <option value="$PROJECT_DIR$/sample/test.py" />
         <option value="$PROJECT_DIR$/sample/sample.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -436,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1481824902464</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add adb library.">
+      <created>1481825126453</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1481825126453</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -486,7 +479,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit." />
+    <MESSAGE value="Add adb library." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add adb library." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -736,17 +730,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="162">
-            <caret line="6" column="3" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="3" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/adbpy/adb.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -762,6 +745,17 @@
         <state relative-caret-position="54">
           <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="81">
+            <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
