@@ -1,4 +1,7 @@
 # adbpy 
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/0bbdccdb2a6f49168ec67a0826c55bee)](https://www.codacy.com/app/zhangyicheng1234/adbpy?utm_source=github.com&utm_medium=referral&utm_content=lancevalour/adbpy&utm_campaign=badger)
+
 Python wrapper for [Android Debug Bridge](https://developer.android.com/studio/command-line/adb.html#directingcommands).
 
 ## Installation
