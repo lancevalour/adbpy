@@ -28,7 +28,6 @@ def test_suite(device):
 
 def main():
     devices = adb.get_devices()
-
     for i in range(0, len(devices)):
         device = Device(devices[i])
         Thread(name=device.get_id(), target=test_suite, args=(device,)).start()

@@ -5,14 +5,12 @@ This module load the necessary libraries and files of Android Debug Bridge.
 
 import subprocess
 import os
-from device import Device
 
 test_iterates = 100
 
 
 def change_dir():
     project_dir = os.path.abspath(os.path.dirname(__file__))
-    os.chdir("..")
     os.chdir(os.getcwd() + "/libs/platform-tools")
 
 

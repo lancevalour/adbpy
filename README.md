@@ -2,6 +2,10 @@
 Python wrapper for [Android Debug Bridge](https://developer.android.com/studio/command-line/adb.html#directingcommands).
 
 ## Installation
+```commandline
+python setup.py bdist-wheel
+pip install adbpy.whl
+```
 
 ## Usage
 ### Simple Control

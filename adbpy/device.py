@@ -29,7 +29,8 @@ class Device:
 
     # Installation
     def install_apk(self, apk_path):
-        subprocess.call("adb -s " + self.__device_id + " install" + str(apk_path))
+        print("adb -s " + self.__device_id + " install " + str(apk_path))
+        subprocess.call("adb -s " + self.__device_id + " install " + str(apk_path))
 
     # Control
     def tap(self, x, y):
